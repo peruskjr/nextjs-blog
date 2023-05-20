@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html,
 body {
   padding: 0;
@@ -7,6 +11,7 @@ body {
   line-height: 1.6;
   font-size: 18px;
 }
+
 
 * {
   box-sizing: border-box;

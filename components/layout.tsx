@@ -3,6 +3,7 @@ import Image from 'next/image'
 import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
+import Button from './theme-button'
 
 const name = 'The Robinson'
 export const siteTitle = 'Void'
@@ -70,6 +71,11 @@ export default function Layout({
           <Link href="/">← Back to home</Link>
         </div>
       )}
+      <main className="flex items-center justify-center h-screen flex-col">
+        <h2 className={` text-4sm sm:text-6xl sm:text-9sm text-center text-gray-900`}>You merely adopted the dark</h2>
+        <h2 className={` text-4sm sm:text-6xl sm:text-9sm text-center text-white `}>I was born in it</h2>
+        <Button/>
+      </main>
     </div>
   )
 }
