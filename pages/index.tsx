@@ -20,10 +20,10 @@ export default function Home({
       <Head>
         <title>{siteTitle}</title>
       </Head>
+      
       <section className={utilStyles.headingMd}>
         <p>Don't get buried in another man's dream</p>
         <p>
-          
           <Link href="predictions">Predict</Link>
         </p>
       </section>
